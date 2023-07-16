@@ -1,0 +1,40 @@
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# Production build directory
+/build
+
+# Local development files
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# IDE/Editor specific files
+/.idea
+/.vscode
+*.iml
+*.ipr
+*.iws
+*.bak
+*.swp
+
+# macOS
+.DS_Store
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+/dist
+
+# Cache and build output from testing frameworks
+/.eslintcache
+/coverage
+
+# Environment variables file
+/.env
