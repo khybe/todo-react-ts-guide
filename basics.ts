@@ -13,20 +13,16 @@ let isStudent: boolean = true;
 let hobbies: string[];
 hobbies = ["Skating", "Kayaking"];
 
-let person: {
+// Type Aliases
+type Person = {
   name: string;
   age: number;
 };
 
-person = {
-  name: "Khaibar",
-  age: 30,
-};
+let person: Person;
+person = { name: "Khaibar", age: 30 };
 
-let people: {
-  name: string;
-  age: number;
-}[];
+let people: Person[];
 people = [
   { name: "Max", age: 35 },
   { name: "Khaibar", age: 30 },
