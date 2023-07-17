@@ -44,3 +44,16 @@ function add(a: number, b: number) {
 function printOutput(value: any) {
   console.log(value);
 }
+
+// Generics
+function insertInBeginning<T>(array: T[], value: T) {
+  const newArray = [value, ...array];
+  return newArray;
+}
+
+const demoArray = [1, 2, 3];
+
+const updatedArray = insertInBeginning(demoArray, -1); // [-1, 1, 2, 3]
+const stringArray = insertInBeginning(["b", "c", "d"], "a"); // ["a", "b", "c", "d"]
+
+// updatedArray[0].split("");
