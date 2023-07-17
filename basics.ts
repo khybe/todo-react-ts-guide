@@ -35,3 +35,12 @@ people = [
 // Union Types
 let course: string | number | boolean = "React - The Complete Guide";
 course = 12345;
+
+// Functions & Types
+function add(a: number, b: number) {
+  return a + b;
+}
+
+function printOutput(value: any) {
+  console.log(value);
+}
