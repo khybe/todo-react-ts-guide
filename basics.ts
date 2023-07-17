@@ -33,5 +33,9 @@ people = [
 ];
 
 // Type inference
-let course = "React - The Complete Guide";
+// let course = "React - The Complete Guide";
 // course = 12345;
+
+// Union Types
+let course: string | number | boolean = "React - The Complete Guide";
+course = 12345;
