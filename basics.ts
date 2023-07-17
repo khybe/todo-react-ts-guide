@@ -31,3 +31,7 @@ people = [
   { name: "Max", age: 35 },
   { name: "Khaibar", age: 30 },
 ];
+
+// Type inference
+let course = "React - The Complete Guide";
+// course = 12345;
